@@ -512,7 +512,7 @@
 
     <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
     of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
-    <string name="organization_company_and_title"><xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g></string>
+    <string name="organization_company_and_title" translatable="false"><xliff:g id="company" example="Technical Program Manager">%2$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%1$s</xliff:g></string>
 
     <!-- Title shown for the phone number when the number tries to call on a device that it not a phone [CHAR LIMIT=30] -->
     <string name="non_phone_caption">Phone number</string>
@@ -527,7 +527,7 @@
     <string name="non_phone_close">Close</string>
 
     <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
-    <string name="widget_name_and_phonetic"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
+    <string name="widget_name_and_phonetic" translatable="false"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
 
     <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
     <string name="date_year_toggle">Provide a year</string>
@@ -602,7 +602,7 @@
     <string name="cancel_confirmation_dialog_message">Discard your changes?</string>
 
     <!-- Description of a call log entry, made of a call type and a date -->
-    <string name="call_type_and_date">
+    <string name="call_type_and_date" translatable="false">
         <xliff:g id="call_type" example="Friends">%1$s</xliff:g>  <xliff:g id="call_short_date" example="Friends">%2$s</xliff:g>
     </string>
 
@@ -769,5 +769,5 @@
     <string name="compact_editor_change_photo_content_description">Change photo</string>
 
     <!-- Quick contact display name with phonetic name -->
-    <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
+    <string name="quick_contact_display_name_with_phonetic" translatable="false"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
 </resources>
