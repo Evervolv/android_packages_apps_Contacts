@@ -686,7 +686,7 @@
     <string name="send_message">Send message</string>
 
     <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-    <string name="toast_making_personal_copy">Creating a personal copy...</string>
+    <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
     <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
     <string name="yesterday">Yesterday</string>
     <string name="tomorrow">Tomorrow</string>
